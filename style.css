@@ -11,15 +11,18 @@ h1{
   color:  #a85b94;
 }
 p{
+  text-align: start;
+  
+  width: 100%;
   color: #c6beee;
 }
 
 .bloque{
   display: block;
-  width: 80%;
+  width:80%;
   text-align: center;
   margin: 10%;
-  justify-content: center
+  
 }
 nav {
     display: flex;                    /* Activa el layout en fila */
@@ -34,4 +37,60 @@ nav a {
     flex: 1;                    /* Cada parte ocupa el mismo ancho */
     color: white;
     text-align: center;         /* Centrar texto en cada caja */
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+  
+.jarron {
+  width: 25%;
+  height: 25%;
+}
+
+.taza {
+  width: 25%;
+  height: 25%;
+}
+
+.chica {
+  width: 25%;
+  height: 25%;
+}
+
+.relax {
+  width: 25%;
+  height: 25%;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+#tisana{
+  font-weight: bold;
+
 }
