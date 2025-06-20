@@ -12,6 +12,7 @@ html {
 
 .footer{
   background-color: black;
+  border-radius: 30px;
 }
 
 .footer_content{
