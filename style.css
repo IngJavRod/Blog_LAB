@@ -139,3 +139,7 @@ button:hover {
 .footer_DerechosAutorText{
   text-align: center;
 }
+
+#white-text {
+    color: white;
+}
