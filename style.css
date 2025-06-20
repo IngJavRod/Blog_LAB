@@ -58,18 +58,6 @@ html {
   border-radius: 6px;
 }
 
-.footer_formulario{
-  width: min(100%,400px);
-  padding: 2re 1.5rem;
-  background-color: #292a32;
-  border-radius:10px;
-  display: grid;
-  gap: 1rem;
-  grid-template-rows: 48px 48px;
-}
 
-.footer_email{
-  color: #292a32;
-}
 
 
