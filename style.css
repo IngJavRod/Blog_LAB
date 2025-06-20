@@ -11,15 +11,18 @@ h1{
   color:  #a85b94;
 }
 p{
+  text-align: start;
+  
+  width: 100%;
   color: #c6beee;
 }
 
 .bloque{
   display: block;
-  width: 80%;
+  width:80%;
   text-align: center;
   margin: 10%;
-  justify-content: center
+  
 }
 nav {
     display: flex;                    /* Activa el layout en fila */
@@ -85,4 +88,9 @@ button:hover {
 .logo {
   width: 200px;
   height: 200px;
+}
+
+#tisana{
+  font-weight: bold;
+
 }
