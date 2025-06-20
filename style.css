@@ -2,4 +2,36 @@ html {
     height: 100%;
     width: 100%;
   }
+
+body{
+  background-color: #1b1c33;
   
+}
+h1{
+  color:  #a85b94;
+}
+p{
+  color: #c6beee;
+}
+
+.bloque{
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: 10%;
+  justify-content: center
+}
+nav {
+    display: flex;                    /* Activa el layout en fila */
+    justify-content: space-between;   /* Espacio entre elementos */
+    align-items: center;              /* Alineación vertical centrada */
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    flex: 1;                    /* Cada parte ocupa el mismo ancho */
+    color: white;
+    text-align: center;         /* Centrar texto en cada caja */
+}
