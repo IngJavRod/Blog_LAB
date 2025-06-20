@@ -1,2 +1,2 @@
-# Blog_LAB
-Crear un sitio de blog utilizando solo HTML y CSS, utilizando Wireframe 
+# ad-l4
+AD-07-1 The blog Site - Group
