@@ -2,4 +2,19 @@ html {
     height: 100%;
     width: 100%;
   }
+
+body{
+  background-color: #1b1c33;
   
+}
+h2{
+  color:  #a85b94;
+}
+p{
+  color: #c6beee;
+}
+
+.bloque{
+  display: inline-block;
+  width: 40%;
+}
