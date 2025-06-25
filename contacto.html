@@ -18,12 +18,10 @@
 
 
 
-  <main>
-
-
+  <main class="my-4">
     <div class="container-fluid">
       <div class="row">
-            <aside class="col-md-3 bg-secondary text-white p-3">
+            <aside class="col-md-3 color4 p-3">
               <h4>Publicidad</h4>
               <p>Contenido de anuncios</p>
             </aside>
@@ -47,10 +45,30 @@
                 <label for="mensaje">Mensaje:</label><br />
                 <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea><br /><br />
 
-                <button type="submit">Enviar</button>
+                <button class="btn btn-primary" type="" data-bs-toggle="modal" data-bs-target="#envform">Enviar</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="envform" tabindex="-1" aria-labelledby="enviarformlabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="enviarformlabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </form>
             </section>
-            <aside class="col-md-3 bg-info text-white p-3">
+            <aside class="col-md-3 color4 p-3">
               <h4>Noticias</h4>
               <p>Últimas novedades o links</p>
             </aside>
@@ -106,7 +124,7 @@
       </div>
 
     </div>
-
+    <link rel="stylesheet" href="style.css">
     <!-- Derechos reservados -->
     <p class="text-center mt-2">&copy; FireStack 2025. Todos los derechos reservados.</p>
   </footer>
