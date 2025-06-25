@@ -101,4 +101,13 @@ button:hover {
 
 }
 
+.video1 {
+  width: 30%;
+  height: 30%;
+}
+.video2 {
+  width: 50%;
+  height: 50%;  /* Centrado horizontalmente */
+}
+
 /* --------------------------------- footer --------------------------------- */
