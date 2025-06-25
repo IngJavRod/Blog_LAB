@@ -42,3 +42,17 @@ function scrollToSection(id) {
     extraContent.textContent = "";
   }, 3000);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const formulario = document.getElementById("formContacto");
+
+  formulario.addEventListener("submit", function (e) {
+    e.preventDefault(); // Evita el envío real del formulario
+
+    const nombre = document.getElementById("nombre").value.trim();
+    const correo = document.getElementById("email").value.trim();
+    const descripcion = document.getElementById("mensaje").value.trim();
+    alert("✅ ¡Formulario enviado con éxito!");
+    
+  });
+});
