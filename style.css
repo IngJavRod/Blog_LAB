@@ -30,14 +30,6 @@ p{
   margin: 10%;
   
 }
-nav {
-    display: flex;                    /* Activa el layout en fila */
-    justify-content: space-between;   /* Espacio entre elementos */
-    align-items: center;              /* Alineación vertical centrada */
-    background-color: #003366;
-    color: white;
-    padding: 15px;
-}
 
 nav a {
     flex: 1;                    /* Cada parte ocupa el mismo ancho */
