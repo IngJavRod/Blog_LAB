@@ -49,6 +49,7 @@ form {
   border-radius: 8px;
   margin-top: 20px;
 }
+
 input, textarea {
   width: 100%;
   padding: 10px;
@@ -108,4 +109,7 @@ button:hover {
   height: 50%;  /* Centrado horizontalmente */
 }
 
+#sobre-nosotros{
+  background-color: #461860;
+}
 /* --------------------------------- footer --------------------------------- */
